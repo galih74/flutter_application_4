@@ -493,8 +493,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
                     ),
                   ),
                 );
-                setState(() {}); // Memperbarui tampilan saat kembali dari detail
-              },
+                setState(() {}); 
             ),
           );
         },
