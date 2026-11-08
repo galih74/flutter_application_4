@@ -1,0 +1,37 @@
+name: flutter_application_4
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+flutter_launcher_icons:
+  image_path: "assets/images/icon.jpg" 
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/tanahlot.png
+    - assets/images/desa.jpg
+    - assets/images/gwk.jpg
+    - assets/images/kuta.jpg
+    - assets/images/pandawa.jpeg
+    - assets/images/purabedugul.jpg
+    - assets/images/icon.jpg
+    - assets/images/foto.jpeg
